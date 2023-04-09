@@ -115,18 +115,22 @@ nav {
 
 h1::-moz-selection {
   background-color: black;
+  color: white;
 }
 
 h1::selection {
   background-color: black;
+  color: white;
 }
 
 p::-moz-selection {
   background-color: black;
+  color: white;
 }
 
 p::selection {
   background-color: black;
+  color: white;
 }
 
 .carusel {
@@ -271,6 +275,7 @@ p::selection {
   color: rgb(157, 157, 157);
 }
 .container-six .row {
+  font-family: "Roboto Condensed", sans-serif;
   margin: 0 15%;
   display: flex;
 }
@@ -286,4 +291,65 @@ p::selection {
 }
 .container-six .forms .form {
   padding: 5%;
+}
+
+.section-seven {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  height: 100px;
+}
+
+.countainer-seven .row {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 5% 15%;
+  display: flex;
+  justify-content: space-around;
+}
+.countainer-seven .row .card-seven {
+  text-align: center;
+  position: relative;
+}
+.countainer-seven .row .card-seven #color {
+  color: #1089FF;
+}
+.countainer-seven .row .card-seven img {
+  width: 100%;
+  height: 100%;
+  padding: 4%;
+}
+.countainer-seven .row .card-seven .face {
+  width: 50px;
+  height: 50px;
+  padding: 2%;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  left: 10px;
+  top: 45%;
+}
+.countainer-seven .row .card-seven i {
+  font-size: 40px;
+}
+.countainer-seven .row .card-seven .twit {
+  width: 50px;
+  height: 50px;
+  padding: 2%;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  left: 10px;
+  top: 60%;
+}
+.countainer-seven .row .card-seven .in {
+  width: 50px;
+  height: 50px;
+  padding: 2%;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  left: 10px;
+  top: 75%;
 }/*# sourceMappingURL=style.css.map */

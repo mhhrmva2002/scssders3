@@ -10,10 +10,11 @@
 }
 h1::selection{
     background-color: $hover;
+    color: $a-color;
   }
   p::selection{
       background-color: $hover;
-
+color: $a-color;
     }
 .carusel{
     font-family: 'Roboto Condensed', sans-serif;
@@ -157,6 +158,7 @@ div{
     width: 100%;
 
     .row{
+        font-family: 'Roboto Condensed', sans-serif;
         .card-six{
             padding: 5%;
         }
@@ -172,5 +174,66 @@ div{
         padding: 5%;
       }
         display: flex;
+    }
+}
+.section-seven{
+display: flex;
+align-items: center;
+justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    height: 100px;
+}
+.countainer-seven{
+    .row{
+        font-family: 'Roboto Condensed', sans-serif;
+        margin: 5% 15%;
+        display: flex;
+        justify-content: space-around;
+        .card-seven{
+            #color{
+             color:$color-icon;
+            }
+            text-align: center;
+            img{
+                width: 100%;
+                height: 100%;
+                padding: 4%;
+            }
+            position: relative;
+           .face{
+            width: 50px;
+            height: 50px;
+            padding: 2%;
+            border-radius: 50%;
+            color: $a-color;
+              position: absolute;
+              left: 10px;
+          top: 45%;
+          }
+          i{
+            font-size: 40px;
+          }
+          .twit{
+            width: 50px;
+            height: 50px;
+            padding: 2%;
+            border-radius: 50%;
+            color: $a-color;
+              position: absolute;
+              left: 10px;
+          top: 60%;
+          }
+          .in{
+            width: 50px;
+            height: 50px;
+            padding: 2%;
+            border-radius: 50%;
+            color: $a-color;
+              position: absolute;
+              left: 10px;
+          top: 75%;
+          }
+        }
     }
 }
