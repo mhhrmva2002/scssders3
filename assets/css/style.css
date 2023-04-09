@@ -352,4 +352,35 @@ p::selection {
   position: absolute;
   left: 10px;
   top: 75%;
+}
+
+.color-gray {
+  color: rgb(157, 157, 157);
+}
+
+.container-eight {
+  width: 100%;
+}
+.container-eight .row {
+  font-family: "Roboto Condensed", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 15%;
+}
+.container-eight .row .card-eight {
+  padding: 10%;
+}
+.container-eight .row .card-eight #div {
+  display: flex;
+  justify-content: space-around;
+}
+.container-eight .row .card-eight #div img {
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+}
+.container-eight .row .card-eight #color-gray {
+  padding: 5%;
+  border: 2px solid rgb(157, 157, 157);
+  border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */

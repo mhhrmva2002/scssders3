@@ -237,3 +237,33 @@ justify-content: center;
         }
     }
 }
+.color-gray{
+    @include color-gray ($color-gray);
+        }
+.container-eight{
+    width: 100%;
+.row{
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 15%;
+    .card-eight{
+        padding: 10%;
+        #div{
+            img{
+                border-radius: 50%;
+                width: 20%;
+                height: 20%;
+            }
+            display: flex;
+            justify-content: space-around;
+        }
+        #color-gray{
+            padding: 5%;
+            border: 2px solid $color-gray;
+border-radius: 5px;
+        }
+    }
+}
+   
+}
