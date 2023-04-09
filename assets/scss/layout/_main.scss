@@ -1,3 +1,20 @@
+#about-us{
+    font-size: 22px;
+    font-family: 'Dancing Script', cursive;
+    color:$color-icon ;
+}
+.bosh-div{
+    margin: 5% 0;
+    width: 30%;
+    border: 2px solid $color-icon;
+}
+h1::selection{
+    background-color: $hover;
+  }
+  p::selection{
+      background-color: $hover;
+
+    }
 .carusel{
     font-family: 'Roboto Condensed', sans-serif;
     position: relative;
@@ -33,15 +50,6 @@ right: 10px;
 }
 .container-two{
     margin-bottom: 5%;
-    #about-us{
-        font-family: 'Dancing Script', cursive;
-        color:$color-icon ;
-    }
-    .bosh-div{
-        margin: 5% 0;
-        width: 30%;
-        border: 2px solid $color-icon;
-    }
     margin: 7% 10%;
     height: 30vh;
     img{
@@ -92,5 +100,53 @@ right: 10px;
         .card-four{
            padding: 0 10%;
         }
+    }
+}
+.section-five{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .bosh-div{
+      width: 100%;
+    }
+}
+.container-five{
+    width: 100%;
+    background-color: $container-five;
+    .row{  
+        margin: 5% 10%;
+        .col-4{
+            padding: 1%;
+        }
+        .color-gray{
+            @include color-gray ($color-gray);
+                }
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+
+            font-family: 'Roboto Condensed', sans-serif;
+.card-five{
+
+div{
+    position: relative;
+    button{
+        padding: 1%;
+        position:absolute;
+        right: 5%;
+        top: 5%;
+
+    }
+    padding: 0 5%;
+}
+    background-color: $a-color;
+   
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
     }
 }

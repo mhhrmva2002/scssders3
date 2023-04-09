@@ -101,6 +101,34 @@ nav {
   top: 100px;
 }
 
+#about-us {
+  font-size: 22px;
+  font-family: "Dancing Script", cursive;
+  color: #1089FF;
+}
+
+.bosh-div {
+  margin: 5% 0;
+  width: 30%;
+  border: 2px solid #1089FF;
+}
+
+h1::-moz-selection {
+  background-color: black;
+}
+
+h1::selection {
+  background-color: black;
+}
+
+p::-moz-selection {
+  background-color: black;
+}
+
+p::selection {
+  background-color: black;
+}
+
 .carusel {
   font-family: "Roboto Condensed", sans-serif;
   position: relative;
@@ -139,15 +167,6 @@ nav {
   margin-bottom: 5%;
   margin: 7% 10%;
   height: 30vh;
-}
-.container-two #about-us {
-  font-family: "Dancing Script", cursive;
-  color: #1089FF;
-}
-.container-two .bosh-div {
-  margin: 5% 0;
-  width: 30%;
-  border: 2px solid #1089FF;
 }
 .container-two img {
   width: 100%;
@@ -197,4 +216,50 @@ nav {
 }
 .container-four .row .card-four {
   padding: 0 10%;
+}
+
+.section-five {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.section-five .bosh-div {
+  width: 100%;
+}
+
+.container-five {
+  width: 100%;
+  background-color: #F8F9FA;
+}
+.container-five .row {
+  margin: 5% 10%;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.container-five .row .col-4 {
+  padding: 1%;
+}
+.container-five .row .color-gray {
+  color: rgb(157, 157, 157);
+}
+.container-five .row .card-five {
+  background-color: white;
+}
+.container-five .row .card-five div {
+  position: relative;
+  padding: 0 5%;
+}
+.container-five .row .card-five div button {
+  padding: 1%;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+.container-five .row .card-five img {
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=style.css.map */
