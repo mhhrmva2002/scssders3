@@ -265,5 +265,24 @@ border-radius: 5px;
         }
     }
 }
-   
+}
+#color{
+    color:$color-icon;
+   }
+.container-nine{
+    .row{
+        .card-nine{
+            padding: 5% 30%;
+        }
+        h4{
+            border-bottom: 2px solid $color-icon;
+        }
+        margin: 5% 13%;
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Roboto Condensed', sans-serif;
+        .card-nine {
+
+        }
+    }
 }

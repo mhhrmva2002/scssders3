@@ -383,4 +383,21 @@ p::selection {
   padding: 5%;
   border: 2px solid rgb(157, 157, 157);
   border-radius: 5px;
+}
+
+#color {
+  color: #1089FF;
+}
+
+.container-nine .row {
+  margin: 5% 13%;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.container-nine .row .card-nine {
+  padding: 5% 30%;
+}
+.container-nine .row h4 {
+  border-bottom: 2px solid #1089FF;
 }/*# sourceMappingURL=style.css.map */
