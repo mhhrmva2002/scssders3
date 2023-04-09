@@ -18,8 +18,18 @@ header{
   text-align: center;
 }  
 }
+.hamburger{
+    display: none !important;
+    position: relative;
+    top: 1%;
+    left: 95%;
+}
 nav{
+   
     padding: 2% 20%;
+    position: sticky !important;
+   top: 0px;
+   z-index: 100;
    ul{
     li{
        
@@ -30,7 +40,6 @@ nav{
        
         text-decoration: none;
         color: $a-color;
-       
     }
 }
     list-style: none;
@@ -42,8 +51,4 @@ nav{
 }
 body{
     position: relative;
-}
-nav{
-   position: sticky;
-   top: 100px;
 }

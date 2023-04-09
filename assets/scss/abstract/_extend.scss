@@ -1,3 +1,43 @@
-%color-gray{
-        color: $color-gray;
+// %color-gray{
+//         color: $color-gray;
+//     }
+button{
+    font-size: 20px;
+    padding: 2% 5%;
+    color: $a-color;
+    border: none;
+    border-radius: 5px;
+    background-color: $color-icon;
+}
+
+@media only screen and (max-width: 767px) {
+    .none{
+        display: none !important;
+      }
+    nav{
+        display: none !important;
+       }
+       .hamburger{
+        color: black;
+        position: relative !important;
+        top: 1% !important;
+        left: 95% !important;
+        display: block !important;
+       }
+    .row{
+        flex-wrap: wrap;
+        height: fit-content;
     }
+    .col-1-s {width: 8.33% !important;}
+    .col-2-s {width: 16.66% !important;}
+    .col-3-s {width: 25% !important;}
+    .col-4-s {width: 33.33% !important;}
+    .col-5-s {width: 41.66% !important;}
+    .col-6-s {width: 50% !important;}
+    .col-7-s {width: 58.33% !important;}
+    .col-8-s {width: 66.66% !important;}
+    .col-9-s {width: 75% !important;}
+    .col-10-s {width: 83.33% !important;}
+    .col-11-s {width: 91.66% !important;}
+    .col-12-s {width: 200% !important;} 
+}
