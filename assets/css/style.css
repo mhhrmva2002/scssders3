@@ -262,4 +262,28 @@ p::selection {
 .container-five .row .card-five img {
   width: 100%;
   height: 100%;
+}
+
+.container-six {
+  width: 100%;
+}
+.container-six .color-gray {
+  color: rgb(157, 157, 157);
+}
+.container-six .row {
+  margin: 0 15%;
+  display: flex;
+}
+.container-six .row .card-six {
+  padding: 5%;
+}
+.container-six .row img {
+  width: 100%;
+  height: 100%;
+}
+.container-six .forms {
+  display: flex;
+}
+.container-six .forms .form {
+  padding: 5%;
 }/*# sourceMappingURL=style.css.map */
