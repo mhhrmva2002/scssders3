@@ -158,6 +158,43 @@ nav {
   display: flex;
   justify-content: space-around;
 }
+.container-two .row .color-gray {
+  color: rgb(157, 157, 157);
+}
 .container-two .row .card-two {
   margin: 0 5%;
+}
+
+.container-three {
+  margin: 10% 15%;
+}
+.container-three .row {
+  font-family: "Roboto Condensed", sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+.container-three .row .color-gray {
+  color: rgb(157, 157, 157);
+}
+
+.container-four .row {
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 0 15%;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 255, 0.653), rgba(0, 0, 255, 0.659)), url(https://preview.colorlib.com/theme/waterboat/images/hero_1.jpg.webp);
+  background-attachment: fixed;
+  height: 40vh;
+}
+.container-four .row .color-gray {
+  color: rgb(157, 157, 157);
+}
+.container-four .row h1 {
+  font-size: 45px;
+}
+.container-four .row .card-four {
+  padding: 0 10%;
 }/*# sourceMappingURL=style.css.map */
