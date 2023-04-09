@@ -37,3 +37,10 @@ nav{
     height: 80px;
     background-color: $color-icon ;
 }
+body{
+    position: relative;
+}
+nav{
+   position: sticky;
+   top: 100px;
+}

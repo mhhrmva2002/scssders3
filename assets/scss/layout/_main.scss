@@ -1,0 +1,32 @@
+.carusel{
+    position: relative;
+    .carusel-text{
+        position: absolute;
+        right: 15%;
+        top: 40%;
+        text-align: right;
+        color: $a-color;
+        font-size: 20px;
+        h1{
+            font-size: 40px;
+        }
+    }
+    background-image:linear-gradient(rgba(0, 0, 0, 0.325),rgba(0, 0, 0, 0.308)), url(https://preview.colorlib.com/theme/waterboat/images/hero_1.jpg.webp);
+height: 90vh;
+.left{
+  padding: 2%;
+  border-radius: 50%;
+    background-color: $a-color;
+    position: absolute;
+    left: 10px;
+top: 50%;
+}
+.right{
+    padding: 2%;
+  border-radius: 50%;
+background-color: $a-color;
+    position: absolute;
+top: 50%;
+right: 10px;
+}
+}
