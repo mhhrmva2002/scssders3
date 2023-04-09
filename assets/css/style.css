@@ -400,4 +400,16 @@ p::selection {
 }
 .container-nine .row h4 {
   border-bottom: 2px solid #1089FF;
+}
+footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .color-gray {
+  color: rgb(157, 157, 157);
+}
+footer #color {
+  color: #1089FF;
 }/*# sourceMappingURL=style.css.map */
